@@ -21,14 +21,14 @@ export default function Navbar() {
         </Link>
 
         <Link
-          href="/components/About"
+          href="#about"
           className="text-[15px] md:text-[20px] text-[#C4A5B9] hover:text-[#A25986] font-medium transition-colors"
         >
           about
         </Link>
 
         <Link
-          href="/components/Contact"
+          href="#contact"
           className="text-[15px] md:text-[20px] text-[#C4A5B9] hover:text-[#A25986] font-medium transition-colors"
         >
           contact
