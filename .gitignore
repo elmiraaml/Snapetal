@@ -1,0 +1,30 @@
+Set-Content .gitignore @"
+# Node
+node_modules/
+**/node_modules/
+
+# PHP/Laravel
+vendor/
+**/vendor/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+build/
+storage/
+.next/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+"@
