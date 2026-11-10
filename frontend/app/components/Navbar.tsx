@@ -8,7 +8,7 @@ export default function Navbar() {
     <div
       className="absolute left-1/2 -translate-x-1/2 z-50 w-max max-w-[95%]"
       style={{
-        top: '14.746%',
+        top: '5.4%',
       }}
     >
       <nav className="bg-white rounded-full px-8 md:px-20 py-4 md:py-5 flex items-center justify-center gap-6 md:gap-12 shadow-[0_4px_10px_rgba(0,0,0,0.12)]">
